@@ -10,10 +10,10 @@ mv build-a-tron/.laptop.local $HOME/.laptop.local
 sh mac 2>&1 | tee ~/laptop.log
 
 # Clone thoughtbot dotfiles
-git clone git://github.com/veryaustin/dotbotfiles.git $HOME/dotfiles
+# git clone git://github.com/veryaustin/dotbotfiles.git $HOME/dotfiles
 
 # Clone & Install Personal dotfiles
-git clone git://github.com/veryaustin/dotfiles.git $HOME/dotfiles-local && env RCRC=$HOME/dotfiles/rcrc rcup
+# git clone git://github.com/veryaustin/dotfiles.git $HOME/dotfiles-local && env RCRC=$HOME/dotfiles/rcrc rcup
 
 # Cleanup
 rm $HOME/.laptop.local
